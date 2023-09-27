@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+main {
+  background: linear-gradient(45deg, #e91e63, #42a5f5);
+}
+/* Content 1 */
+main #content1 .content-dalam1 {
+  padding-top: 50px;
+}
+main #content1 .profil {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-block-end: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+  border-radius: 20px;
+}
+main #content1 .profil h2 {
+  padding-top: 10px;
+}
+main #content1 .profil p {
+  text-align: center;
+}
+main #content1 .gambar {
+  padding-top: 10px;
+}
+main #content1 .gambar img {
+  width: 200px;
+}
+main #content1 .profil table {
+  padding-left: 10px;
+}
+main #content1 .profil table th {
+  border-color: blue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+main #content1 .profil table td {
+  border-color: blue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Content 2 */
+main #content2 {
+  padding-top: 20px;
+  padding: 10px;
+  padding-block-end: 30px;
+}
+main #content2 .pendaftaran {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30px;
+  background-color: white;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+main #content2 .gmail {
+  margin-right: 10px;
+}
+main #content2 #email {
+  width: 70%;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+main #content #email::active {
+  border-color: red;
+}
+main #content2 .negara {
+  margin-right: 10px;
+}
+main #content2 #country {
+  width: 69.7%;
+  text-align: center;
+  position: relative;
+  right: 19px;
+  border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+  main #content1 .profil {
+    margin-left: 5%; /* Atur margin kiri ke 5% */
+    margin-right: 5%; /* Atur margin kanan ke 5% */
+  }
+
+  main #content1 .gambar img {
+    width: 60%; /* Gambar akan mengisi lebar parent div */
+  }
+
+  main #content1 .profil table {
+    width: 100%; /* Tabel akan mengisi lebar parent div */
+  }
+
+  main #content1 .profil table th,
+  main #content1 .profil table td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main #content2 .pendaftaran {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  main #content2 #email {
+    width: 70%;
+  }
+}
